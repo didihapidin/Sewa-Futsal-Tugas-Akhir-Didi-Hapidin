@@ -1,6 +1,11 @@
 <?php
 session_start();
-session_unset();
-session_destroy();
-header('location:index.html');
-exit;
+if(isset($_SESSION['operator'])){
+	unset($_SESSION['operator']);
+	}
+elseif(isset($_SESSION['member'])){
+	unset($_SESSION['member']);
+	}
+
+echo "<script language='javascript'>alert('Terima kasih, Anda Berhasil Logout'); document.location='index.php';</script>";
+?>

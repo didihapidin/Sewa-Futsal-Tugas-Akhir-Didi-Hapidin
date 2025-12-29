@@ -1,7 +1,12 @@
 <?php
-$server = 'localhost';
-$username = 'root';
-$password = '';
-$db_name = 'persewaan_futsal';
-$koneksi = mysqli_connect($server, $username, $password, $db_name);
+$koneksi = mysqli_connect("localhost", "root","");
+    if(!($koneksi)){
+        echo "<script language=\"javascript\">\n";
+        echo "alert(\"Tidak bisa terkoneksi dengan database...\");\n";
+        echo "</script>";
+        die;
+    }else{
+        $select = mysqli_select_db($koneksi, "futsalkita");
+        //echo "Sukses";
+    }
 ?>
