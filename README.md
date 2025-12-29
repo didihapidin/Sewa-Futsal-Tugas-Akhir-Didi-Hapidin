@@ -1,3 +1,4 @@
+# Didi Hapidin - 221011400763
 # Sewa Futsal – Website Penyewaan Lapangan
 
 Website ini digunakan untuk mengelola penyewaan lapangan futsal: dari melihat jadwal, melakukan pemesanan, hingga pengelolaan data oleh pengelola. Proyek ini ditujukan untuk berjalan di lingkungan PHP + MySQL (mis. XAMPP/Laragon/WAMP).
@@ -6,7 +7,7 @@ Website ini digunakan untuk mengelola penyewaan lapangan futsal: dari melihat ja
 - Melihat ketersediaan jadwal lapangan
 - Pemesanan/penyewaan lapangan
 - Manajemen data oleh admin/operator
-- Notifikasi email (terdapat komponen sendEmail di folder role terkait)
+- Melihat Laporan 
 
 ## Persyaratan
 - PHP 7.4+ (direkomendasikan 7.4–8.x)
